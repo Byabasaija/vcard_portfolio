@@ -1,6 +1,6 @@
 ---
-title: "Who is Chun-Ho (Hugo) Lin 👨🏻‍💻"
-excerpt: "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻."
+title: "Who is Pascal Byabasaija 👨🏻‍💻"
+excerpt: "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻."
 coverImage: "/images/banner/posts/who-is-chun-ho-hugo-lin.webp"
 date: "2025-01-02"
 author:
@@ -13,17 +13,15 @@ publishedAt: "2025-01-02"
 category: Life
 tags:
   - Introduction
-  - Chun-Ho (Hugo) Lin
+  - Pascal Byabasaija
   - Software Engineering
-  - Chun-Ho Lin
-  - Hugo Lin
-summary: "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻."
+summary: "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻."
 banner: /images/banner/posts/who-is-chun-ho-hugo-lin.webp
-alt: "Who is Chun-Ho (Hugo) Lin"
+alt: "Who is Pascal Byabasaija"
 mathjax: true
 ---
 
-I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from [National Central University 🐿️](https://www.ncu.edu.tw/), driven by a _sincere passion_ for **Software Engineering 💻.**
+I'm Pascal Byabasaija, a graduate with a Bachelor's degree from [National Central University 🐿️](https://www.ncu.edu.tw/), driven by a _sincere passion_ for **Software Engineering 💻.**
 
 ![Hugo was the Cloud Ambassador at AWS.](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bLp6dAkksB3iG4kDxMP0bA.jpeg)
 

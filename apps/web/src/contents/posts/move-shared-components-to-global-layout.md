@@ -57,7 +57,7 @@ const About = () => {
           className={`about ${pathname === "/" ? "active" : ""}`}
           data-page="about"
         >
-          <Header title="About Hugo 👨🏻‍💻" />
+          <Header title="About Pascal 👨🏻‍💻" />
           <AboutText />
           <GitHubStats />
           <TechStack />

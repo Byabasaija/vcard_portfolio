@@ -34,7 +34,7 @@ function CodingStats({ techStacks, githubUsername }: CodingStatsProps) {
   return (
     <section id="coding-stats">
       <BlurFade inView delay={0.4} direction="down">
-        <CodeHeader id="coding-stats" text="$ ls -al Coding Stats" />
+        <CodeHeader id="coding-stats" text="$ Coding Stats" />
       </BlurFade>
 
       <BlurFade inView delay={0.4} direction="left">
@@ -69,7 +69,7 @@ function CodingStats({ techStacks, githubUsername }: CodingStatsProps) {
               <div className="flex items-center gap-2 text-white-2 mt-4 ml-4">
                 <LuMapPin size={18} />
                 <h2 className="text-sm font-light">
-                  Taipei, Taiwan (UTC +08:00)
+                  Kampala, Uganda (UTC +03:00)
                 </h2>
               </div>
               <Globe />

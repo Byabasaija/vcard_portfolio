@@ -1,13 +1,13 @@
 {
-    "name": "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-    "short_name": "1chooo.com",
+    "name": "Pascal Byabasaija - Fullstack Software Engineer",
+    "short_name": "pascalbyabasaija",
     "categories": [
         "portfolio",
         "blog",
         "personal",
         "web development"
     ],
-    "description": "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+    "description": "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
     "start_url": "/",
     "display": "standalone",
     "lang": "en-US",

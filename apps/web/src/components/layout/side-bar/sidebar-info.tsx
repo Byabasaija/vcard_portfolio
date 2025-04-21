@@ -32,7 +32,7 @@ function SideBarInfo({
     <div className="sidebar-info">
       <figure className="avatar-box">
         <Image
-          id={`${firstName} (${preferredName}) ${lastName}`}
+          id={`${firstName} ${lastName}`}
           src={avatar}
           alt={`${firstName} (${preferredName}) ${lastName}`}
           width={imageSize.width}
@@ -45,9 +45,9 @@ function SideBarInfo({
       <div className="info-content">
         <h1
           className="name"
-          title={`${firstName} (${preferredName}) ${lastName}`}
+          title={`${firstName} ${lastName}`}
         >
-          {firstName} ({preferredName}) {lastName}
+          {firstName} {lastName}
         </h1>
         <p className="text-white-1 bg-onyx text-xs font-light max-w-max rounded-[8px] custom-lg:m-auto px-3 py-1 md:px-[18px] md:py-[5px]">
           {status}

@@ -97,7 +97,7 @@ $ pnpm run dev   # Open http://localhost:3001 with your browser to see the resul
 ## 🪪 License
 
 > [!IMPORTANT]
-> This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by] by [Chun-Ho (Hugo) Lin][1chooo-com].
+> This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by] by [Pascal Byabasaija][1chooo-com].
 >
 > [cc-by]: http://creativecommons.org/licenses/by/4.0/
 >

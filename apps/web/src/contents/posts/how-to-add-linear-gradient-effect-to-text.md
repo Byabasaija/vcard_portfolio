@@ -40,7 +40,7 @@ Then, it works perfectly on my website. Here is the demo:
 
 ![The Linear Gradient Effect on 1chooo.com](/images/posts/how-to-add-linear-gradient-effect-to-text/after.png)
 
-We can see that the gradient effect is applied to my name, **Chun-Ho (Hugo) Lin.**
+We can see that the gradient effect is applied to my name, **Pascal Byabasaija.**
 
 However, we encountered a problem when we want to select the text. The selected text is not visible.
 
@@ -150,4 +150,4 @@ After implementing the code, the problem was solved. Here is the demo:
 
 ![Final Result of the Linear Gradient Effect on 1chooo.com](/images/posts/how-to-add-linear-gradient-effect-to-text/final.png)
 
-Now, the text is readable when selected. The gradient effect is applied to my name, Chun-Ho (Hugo) Lin, and the text is visible when selected. We value the credits to ChatGPT for helping us solve this problem. If you want to add a gradient effect to text on your website, you can follow the steps above. Hope this article helps you create a smooth and customizable linear gradient effect for text on your website. 🚀 Follow me to catch up the latest tips for developing website!!!
+Now, the text is readable when selected. The gradient effect is applied to my name, Pascal Byabasaija, and the text is visible when selected. We value the credits to ChatGPT for helping us solve this problem. If you want to add a gradient effect to text on your website, you can follow the steps above. Hope this article helps you create a smooth and customizable linear gradient effect for text on your website. 🚀 Follow me to catch up the latest tips for developing website!!!

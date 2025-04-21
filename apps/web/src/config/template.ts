@@ -35,10 +35,10 @@ import {
 
 const config: Config = {
   avatar: "/images/profile.webp",
-  title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+  title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
   description:
-    "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-  author: "Chun-Ho (Hugo) Lin - 1chooo",
+    "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+  author: "Pascal Byabasaija - 1chooo",
   keywords: [
     "Hugo ChunHo Lin",
     "1chooo",
@@ -51,16 +51,16 @@ const config: Config = {
   openGraph: {
     url: "https://www.1chooo.com/",
     type: "website",
-    siteName: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-    title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+    siteName: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+    title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+      "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
     images: [
       {
         url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
         width: 1200,
         height: 630,
-        alt: "Chun-Ho (Hugo) Lin - 1chooo Cover Image",
+        alt: "Pascal Byabasaija - 1chooo Cover Image",
       },
     ],
   },
@@ -93,7 +93,7 @@ const config: Config = {
       icon: LuLinkedin,
       title: "LinkedIn",
       link: "https://www.linkedin.com/in/1chooo/",
-      content: "Chun-Ho (Hugo) Lin",
+      content: "Pascal Byabasaija",
     },
   ],
   socialLinks: [
@@ -130,13 +130,13 @@ const config: Config = {
   ],
   homeMetaData: {
     metadataBase: new URL("https://www.1chooo.com"),
-    title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+    title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-    authors: [{ name: "Chun-Ho (Hugo) Lin" }],
-    creator: "Chun-Ho (Hugo) Lin",
+      "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+    authors: [{ name: "Pascal Byabasaija" }],
+    creator: "Pascal Byabasaija",
     keywords: [
-      "Chun-Ho (Hugo) Lin",
+      "Pascal Byabasaija",
       "1chooo",
       "Software Engineering",
       "Next.js",
@@ -145,25 +145,25 @@ const config: Config = {
     openGraph: {
       url: "https://www.1chooo.com/",
       type: "website",
-      siteName: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-      title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+      siteName: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+      title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
       description:
-        "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+        "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
       images: [
         {
           url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
           width: 1200,
           height: 630,
-          alt: "Chun-Ho (Hugo) Lin - 1chooo Cover Image",
+          alt: "Pascal Byabasaija - 1chooo Cover Image",
         },
       ],
     },
     manifest: "/manifest.json",
     twitter: {
       card: "summary_large_image",
-      title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+      title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
       description:
-        "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+        "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
       images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
     },
     icons: {

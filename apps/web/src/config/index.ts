@@ -31,36 +31,38 @@ import {
   TbBrandAstro,
   TbBrandTerraform,
   TbPhotoSquareRounded,
+  TbSql,
 } from "react-icons/tb";
 
 const config: Config = {
-  avatar: "/images/profile.webp",
-  title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+  avatar: "/images/profile.jpeg",
+  title: "Pascal Byabasaija - Software Engineer",
   description:
-    "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-  author: "Chun-Ho (Hugo) Lin - 1chooo",
+    "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+  author: "Pascal Byabasaija",
   keywords: [
-    "Hugo ChunHo Lin",
-    "1chooo",
+    "Pascal Byabasaija",
+    "Python",
+    "FastAPI",
     "Software Engineering",
     "Next.js",
     "React",
   ],
-  status: "Building until Scale is an Issue 🚀",
+  status: "Building for scale 🚀",
   siteURL: "https://www.1chooo.com",
   openGraph: {
     url: "https://www.1chooo.com/",
     type: "website",
-    siteName: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-    title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+    siteName: "Pascal Byabasaija - Software Engineer",
+    title: "Pascal Byabasaija - Software Engineer",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+      "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
     images: [
       {
         url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
         width: 1200,
         height: 630,
-        alt: "Chun-Ho (Hugo) Lin - 1chooo Cover Image",
+        alt: "Pascal Byabasaija - Cover Image",
       },
     ],
   },
@@ -75,48 +77,48 @@ const config: Config = {
     {
       icon: LuMapPin,
       title: "Location",
-      content: "Taipei, Taiwan 🇹🇼",
+      content: "Kampala, Uganda 🇺🇬",
     },
     {
       icon: LuMail,
       title: "Email",
-      link: "mailto:hugo970217@gmail.com",
-      content: "hugo970217@gmail.com",
+      link: "mailto:basaijapascal9@gmail.com",
+      content: "basaijapascal9@gmail.com",
     },
     {
       icon: LuGithub,
       title: "GitHub",
-      link: "https://github.com/1chooo",
-      content: "@1chooo",
+      link: "https://github.com/Byabasaija",
+      content: "@Byabasaija",
     },
     {
       icon: LuLinkedin,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/1chooo/",
-      content: "Chun-Ho (Hugo) Lin",
+      link: "https://www.linkedin.com/in/pascal-byabasaija/",
+      content: "Pascal Byabasaija",
     },
   ],
   socialLinks: [
     {
-      url: "https://github.com/1chooo",
+      url: "https://github.com/Byabasaija",
       icon: LuGithub,
       name: "GitHub",
     },
     {
-      url: "https://www.linkedin.com/in/1chooo/",
+      url: "https://www.linkedin.com/in/pascal-byabasaija/",
       icon: LuLinkedin,
       name: "LinkedIn",
     },
     {
-      url: "https://medium.com/@1chooo",
+      url: "https://medium.com/@pascalbyabasaija",
       icon: PiMediumLogoBold,
       name: "Medium",
     },
-    {
-      url: "https://twitter.com/1chooo___",
-      icon: FaXTwitter,
-      name: "Twitter",
-    },
+    // {
+    //   url: "https://twitter.com/1chooo___",
+    //   icon: FaXTwitter,
+    //   name: "Twitter",
+    // },
     {
       url: `/rss.xml`,
       icon: LuRss,
@@ -130,13 +132,13 @@ const config: Config = {
   ],
   homeMetaData: {
     metadataBase: new URL("https://www.1chooo.com"),
-    title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+    title: "Pascal Byabasaija - Software Engineer",
     description:
-      "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-    authors: [{ name: "Chun-Ho (Hugo) Lin" }],
-    creator: "Chun-Ho (Hugo) Lin",
+      "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+    authors: [{ name: "Pascal Byabasaija" }],
+    creator: "Pascal Byabasaija",
     keywords: [
-      "Chun-Ho (Hugo) Lin",
+      "Pascal Byabasaija",
       "1chooo",
       "Software Engineering",
       "Next.js",
@@ -145,25 +147,25 @@ const config: Config = {
     openGraph: {
       url: "https://www.1chooo.com/",
       type: "website",
-      siteName: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
-      title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+      siteName: "Pascal Byabasaija - Software Engineer",
+      title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
       description:
-        "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+        "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
       images: [
         {
           url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
           width: 1200,
           height: 630,
-          alt: "Chun-Ho (Hugo) Lin - 1chooo Cover Image",
+          alt: "Pascal Byabasaija - 1chooo Cover Image",
         },
       ],
     },
     manifest: "/manifest.json",
     twitter: {
       card: "summary_large_image",
-      title: "Chun-Ho (Hugo) Lin - 1chooo | Open Source Enthusiast",
+      title: "Pascal Byabasaija - Software Engineer",
       description:
-        "I'm Chun-Ho (Hugo) Lin, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+        "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
       images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
     },
     icons: {
@@ -179,19 +181,15 @@ const config: Config = {
     },
   },
   about: {
-    firstName: "Chun-Ho",
-    lastName: "Lin",
+    firstName: "Pascal",
+    lastName: "Byabasaija",
     middleName: "",
-    preferredName: "Hugo",
-    additionalName: "Hugo",
+    preferredName: "",
+    additionalName: "",
     pronouns: "He/Him",
-    githubUsername: "1chooo",
+    githubUsername: "Byabasaija",
     introduction: `
-I obtained my Bachelor's degree from [National Central University 🐿️](https://www.ncu.edu.tw/), driven by a *sincere passion* for **Software Engineering 💻.**
-
-Software is built by humans. Unfortunately, humans make errors, ***LOTS of ERRORS 💣.*** Throughout human history, humans have learned to craft machines and tools to help us construct complex architecture. Inspired by this, I explore practical methodologies and tools to improve large-scale software systems' quality, reliability, and efficiency.
-
-In my spare time, I focus on contributing to open-source projects, alongside working out 💪🏻, capturing street photography 📸, and writing tech content ✍🏻.
+**Experienced Software Engineer** with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture. **Served as CTO and Project Lead** at fast-paced startups, driving high-impact projects and engineering excellence. **Proven track record** of building scalable, high-quality solutions with modern technologies. **Known for leading lean teams** and delivering over 60% improvement in engineering productivity. 🚀
 
 **Self-motivated, Team player, Love coding 👨🏻‍💻**
     `,
@@ -221,29 +219,20 @@ In my spare time, I focus on contributing to open-source projects, alongside wor
       programmingLanguages: [
         { name: "Python", icon: AiOutlinePython },
         { name: "TypeScript", icon: TbBrandTypescript },
-        { name: "Golang", icon: TbBrandGolang },
-        { name: "C++", icon: TbBrandCpp },
-        { name: "Java", icon: RiJavaLine },
+        { name: "SQL", icon: TbSql },
         { name: "JavaScript", icon: RiJavascriptLine },
-        { name: "LaTeX", icon: SiLatex },
-        { name: "Markdown", icon: TbMarkdown },
-        { name: "Astro", icon: TbBrandAstro },
-        { name: "Terraform", icon: TbBrandTerraform },
+        
       ],
       frameworks: [
         { name: "React", icon: FaReact },
         { name: "FastAPI", icon: SiFastapi },
         { name: "Flask", icon: BiLogoFlask },
-        { name: "Redis", icon: DiRedis },
         { name: "Linux Terminal", icon: VscTerminalLinux },
         { name: "AWS", icon: FaAws },
         { name: "Next.js", icon: TbBrandNextjs },
         { name: "Docker", icon: TbBrandDocker },
         { name: "MySQL", icon: TbBrandMysql },
-        { name: "Django", icon: TbBrandDjango },
-        { name: "Kubernetes", icon: SiKubernetes },
         { name: "Postman", icon: SiPostman },
-        { name: "Azure", icon: VscAzure },
       ],
     },
   },
@@ -253,9 +242,9 @@ In my spare time, I focus on contributing to open-source projects, alongside wor
       title: "Education",
       items: [
         {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Bachelors of Science in Atmospheric Science",
+          company: "Ndejje University",
+          location: "Kampala, Uganda",
+          role: "Bachelors in Information Technology",
           duration: "Sep. 2020 — Jun. 2024",
           tasksMarkdown: `
 - **Minor Specialty:** Computer Science & Information Engineering

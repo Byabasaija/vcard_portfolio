@@ -28,7 +28,7 @@ async function About() {
 
   let header = preferredName
     ? `About ${preferredName} 👨🏻‍💻`
-    : `About ${firstName} ${lastName} 👨🏻‍💻`;
+    : `About ${firstName}👨🏻‍💻`;
 
   const content = await markdownToHtml(introduction || "");
 
@@ -38,7 +38,7 @@ async function About() {
         <PageHeader header={header} />
       </AnimatedSection>
       <AnimatedSection>
-        <CodeHeader id="introduction" text="$ ls -al Hugo 👨🏻‍💻 (He/Him)" />
+        <CodeHeader id="introduction" text="$ Pascal👨🏻‍💻 " />
         <div
           className={cn(markdownStyles["markdown"])}
           dangerouslySetInnerHTML={{ __html: content }}

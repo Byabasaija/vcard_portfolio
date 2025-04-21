@@ -51,7 +51,7 @@ export function LatestArticles({ posts }: Props) {
   return (
     <section>
       <BlurFade inView delay={0.4} direction="down">
-        <CodeHeader id="latest-articles" text="$ ls -al Latest Articles" />
+        <CodeHeader id="latest-articles" text="$ Latest Articles" />
       </BlurFade>
 
       <StaggeredAnimationSection>
