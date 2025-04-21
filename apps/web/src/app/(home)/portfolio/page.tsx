@@ -55,7 +55,7 @@ export default async function Portfolio({
 
   return (
     <article>
-      <PageHeader header="Hugo's Portfolio" />
+      <PageHeader header="Pascal's Portfolio" />
       <section className="projects">
         <FilterList
           path="portfolio"

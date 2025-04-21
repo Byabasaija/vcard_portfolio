@@ -90,7 +90,7 @@ const Portfolio = () => {
           className={`portfolio ${pathname === "/portfolio" ? "active" : ""}`}
           data-page="portfolio"
         >
-          <Header title="Hugo's Portfolio" />
+          <Header title="Pascal's Portfolio" />
           <Projects />
         </article>
       </div>
@@ -199,7 +199,7 @@ const Portfolio = () => {
   return (
     <PageContent
       documentTitle="Portfolio"
-      title="Hugo's Portfolio"
+      title="Pascal's Portfolio"
       page="portfolio"
       pathName={pathname}
     >

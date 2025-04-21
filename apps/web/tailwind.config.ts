@@ -23,11 +23,12 @@ const config: Partial<Config> = {
         "light-gray": "hsl(0, 0%, 84%)",
         "light-gray-70": "hsla(0, 0%, 84%, 0.7)",
         "bittersweet-shimmer": "hsl(0, 43%, 51%)",
-        "color-1": "hsl(var(--color-1))",
+        "green": "hsl(var(--color-1))",
         "color-2": "hsl(var(--color-2))",
         "color-3": "hsl(var(--color-3))",
         "color-4": "hsl(var(--color-4))",
         "color-5": "hsl(var(--color-5))",
+        
       },
       backgroundImage: {
         "gradient-onyx":

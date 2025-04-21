@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 export default function Resume() {
   return (
     <article>
-      <PageHeader header="Hugo's Resume" />
+      <PageHeader header="Pascal's Resume" />
       <DownloadCV />
       <TimeLine data={professionalExperiences} />
       <TimeLine data={educations} />
-      <TimeLine data={awardLeaderships} />
-      <TimeLine data={teachingExperiences} />
+      {/* <TimeLine data={awardLeaderships} /> */}
+      {/* <TimeLine data={teachingExperiences} /> */}
     </article>
   );
 }

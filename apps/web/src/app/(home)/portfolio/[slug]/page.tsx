@@ -116,7 +116,7 @@ export default async function Portfolio(props: { params: tParams }) {
     <div>
       <article>
         <section className="blog-text">
-          <PageHeader header="Hugo's Portfolio" />
+          <PageHeader header="Pascal's Portfolio" />
           <h1 className="title font-semibold text-2xl font-text-2xl tracking-tighter max-w-[650px]">
             <MarkdownRenderer content={post.metadata.title} />
           </h1>

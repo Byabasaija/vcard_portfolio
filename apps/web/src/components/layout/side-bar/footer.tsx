@@ -8,17 +8,17 @@ function Footer() {
         &copy; {new Date().getFullYear()}{" "}
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://www.1chooo.com"
+          href="https://pascalbyabasaija.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          1chooo
+          Pascal Byabasaija
         </Link>
       </div>
-      <div className="space-x-4">
+      {/* <div className="space-x-4">
         <Link
           className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://github.com/1chooo/1chooo.com"
+          href="https://github.com/Byabasaija"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -38,7 +38,7 @@ function Footer() {
         >
           Docs
         </Link>
-      </div>
+      </div> */}
     </footer>
   );
 }
