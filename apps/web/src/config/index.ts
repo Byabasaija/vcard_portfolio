@@ -192,7 +192,7 @@ const config: Config = {
     pronouns: "He/Him",
     githubUsername: "Byabasaija",
     introduction: `
-**Experienced Software Engineer** with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture. **Served as CTO and Project Lead** at fast-paced startups, driving high-impact projects and engineering excellence. **Proven track record** of building scalable, high-quality solutions with modern technologies. **Known for leading lean teams** and delivering over 60% improvement in engineering productivity. 🚀
+**Experienced Software Engineer** with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture. **Served as Project Lead** at fast-paced startups, driving high-impact projects and engineering excellence. **Proven track record** of building scalable, high-quality solutions with modern technologies. **Known for leading lean teams** and delivering over 60% improvement in engineering productivity. 🚀
 
 **Self-motivated, Team player, Love coding 👨🏻‍💻**
     `,
@@ -319,22 +319,6 @@ skills, Research methods etc.
       icon: MdOutlineDevices,
       title: "Professional Experience",
       items: [
-        {
-          company: "Dissimilar Media(formerly Backlink Africa)",
-          location: "Kampala, Uganda",
-          role: "Chief Technology Officer",
-          duration: "Jan. 2025 - Present",
-          tasksMarkdown: `
-- Promoted to CTO after leading the successful delivery of Monetize 54,
-completing the project 5x faster than prior teams and accelerating the
-company’s go-to-market timeline by 3 months.
-- Redesigned the technical architecture to support 10x more users, enabling
-the platform to scale smoothly during early growth without service
-interruptions.
-- Built and led a lean dev team of less than 5 engineers, increasing sprint
-velocity by 40% and cutting feature delivery time in half within 6 months..
-          `,
-        },
         {
           company: "Dissimilar Media(formerly Backlink Africa)",
           location: "Kampala, Uganda",
