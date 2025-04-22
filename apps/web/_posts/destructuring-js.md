@@ -4,6 +4,9 @@ date: "2022-06-25"
 category: JavaScript
 coverImage: /images/banner/posts/destructure.jpg
 excerpt: "OOP is everywhere in software engineering discussions, but what does it really mean? Let's demystify it using a practical approach and relatable analogies."
+author:
+  name: Pascal
+  picture: "https://github.com/Byabasaija.png"
 tags:
   - JavaScript
   - ES6
