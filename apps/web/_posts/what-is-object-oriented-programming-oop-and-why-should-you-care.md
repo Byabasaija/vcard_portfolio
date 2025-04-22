@@ -13,10 +13,12 @@ tags:
   - Programming
   - Software Design
 publishedAt: "2022-10-10"
+ogImage:
+  url: "/images/banner/posts/oop.webp"
 summary: "OOP is everywhere in software engineering discussions, but what does it really mean? Let's demystify it using a practical approach and relatable analogies."
 banner: /images/banner/posts/oop.webp
 alt: "Understanding Object-Oriented Programming through real-world analogies"
-mathjax: false
+mathjax: true
 ---
 
 ![Photo by Amol Tyagi on Unsplash](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*o9ON2p0Bm63uuh4z9_NhWg.jpeg)
