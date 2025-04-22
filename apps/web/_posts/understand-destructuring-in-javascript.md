@@ -14,6 +14,8 @@ tags:
   - Arrays
   - Objects
 publishedAt: "2022-06-25"
+ogImage:
+  url: "/images/banner/posts/destructure.jpg"
 summary: "Destructuring is a concise way to extract values from arrays or properties from objects into distinct variables. Let's explore how it simplifies JavaScript code."
 banner: /images/banner/posts/destructure.jpg
 alt: "Understand Destructuring in JavaScript"
