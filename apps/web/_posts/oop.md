@@ -4,6 +4,9 @@ date: "2022-10-10"
 category: Programming Concepts
 coverImage: /images/banner/posts/oop.webp
 excerpt: "OOP is everywhere in software engineering discussions, but what does it really mean? Let's demystify it using a practical approach and relatable analogies."
+author:
+  name: Pascal
+  picture: "https://github.com/Byabasaija.png"
 tags:
   - OOP
   - Object-Oriented Programming

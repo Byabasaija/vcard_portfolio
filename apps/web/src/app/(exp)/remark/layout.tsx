@@ -73,23 +73,16 @@ const addJsonLd = () => {
       "familyName": ${lastName},
       "additionalName": ${preferredName},
       "gender": "male",
-      "birthPlace": "New Taipei, TW",
-      "nationality": "Taiwan",
-      "alumniOf":[
-        {
-          "@type": "CollegeOrUniversity",
-          "name": "National Central University",
-          "sameAs": "https://www.ncu.edu.tw/"
-        },
-      ],
+      "birthPlace": "Uganda",
+      "nationality": "Uganda",
       "jobTitle": "Software Engineer",
-      "skills": "Software Engineering, Web Development, Open Source",
-      "image": "https://www.1chooo.com/images/profile.webp",
+      "skills": "Software Engineering, Web Development",
+      "image": "",
       "url": ${siteURL},
       "sameAs": [
-        "https://www.linkedin.com/in/1chooo/",
-        "http://github.com/1chooo",
-        "https://medium.com/@1chooo",
+        "https://www.linkedin.com/in/pascal-byabasaija/",
+        "http://github.com/Byabasaija",
+        "https://medium.com/@pascalbyabasaija",
       ]
     }
   `,
