@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: title,
     description: description,
-    images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+    images: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
   },
   icons: {
     icon: "/favicon.ico",

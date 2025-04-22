@@ -51,7 +51,7 @@ const config: Config = {
     "Next.js",
     "React",
   ],
-  status: "Building for scale 🚀",
+  status: "Building to scale 🚀",
   siteURL: "https://pascalbyabasaija.vercel.app/",
   openGraph: {
     url: "https://pascalbyabasaija.vercel.app/",
@@ -62,7 +62,7 @@ const config: Config = {
       "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
     images: [
       {
-        url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+        url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
         width: 1200,
         height: 630,
         alt: "Pascal Byabasaija - Cover Image",
@@ -73,7 +73,7 @@ const config: Config = {
     { path: "/", label: "About" },
     { path: "/resume", label: "Resume" },
     { path: "/portfolio", label: "Portfolio" },
-    { path: "/post", label: "Post" },
+    { path: "/post", label: "Posts" },
     // { path: "/gallery", label: "Gallery" },
   ],
   contacts: [

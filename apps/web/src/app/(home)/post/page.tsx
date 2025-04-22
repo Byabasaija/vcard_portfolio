@@ -76,7 +76,7 @@ async function BlogPosts({ searchParams }: { searchParams: BlogQueryParams }) {
                   priority={false}
                   placeholder="blur"
                   loading="eager"
-                  blurDataURL="https://docs.1chooo.com/images/cover-with-1chooo-com.png"
+                  blurDataURL="https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI"
                 />
               </figure>
               <div className="blog-content">
@@ -125,7 +125,7 @@ export default function Post({
 }) {
   return (
     <article>
-      <PageHeader header="Hugo's Blog" />
+      <PageHeader header="Pascal's Blog" />
       <Suspense fallback={<Loading />}>
         <BlogPosts searchParams={searchParams} />
       </Suspense>

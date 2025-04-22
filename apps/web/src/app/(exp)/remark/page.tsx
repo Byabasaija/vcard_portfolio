@@ -13,7 +13,7 @@ export default function Index() {
 
   return (
     <article>
-      <PageHeader header="Hugo's Blog" />
+      <PageHeader header="Pascal's Blog" />
       <Container>
         <HeroPost
           title={heroPost.title}

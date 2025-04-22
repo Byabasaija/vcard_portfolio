@@ -62,7 +62,7 @@ export function LatestArticles({ posts }: Props) {
                 href={`/post/${post.slug}`}
                 rel="noopener noreferrer"
               >
-                <figure className="latest-post-img">
+                <figure className="blog-banner-box">
                   <div className="absolute latest-post-item-icon-box text-orange-yellow-crayola text-xl bg-jet p-[18px] rounded-xl top-1/2 left-1/2 transition-all duration-250 ease-linear">
                     <LuEye />
                   </div>
@@ -71,10 +71,10 @@ export function LatestArticles({ posts }: Props) {
                     alt={post.excerpt || "Blog post image"}
                     width={1600}
                     height={900}
-                    priority
-                    quality={50}
-                    placeholder="empty"
+                    priority={false}
+                    placeholder="blur"
                     loading="eager"
+                    blurDataURL="https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI"
                   />
                 </figure>
                 <h3 className="ml-[10px] text-white-2 text-base font-normal capitalize leading-[1.3] group-hover:text-orange-yellow-crayola group-hover:font-bold">

@@ -26,7 +26,7 @@ export async function GET(req: NextRequest) {
           alignItems: "flex-start",
           justifyContent: "center",
           backgroundImage:
-            "url(https://docs.1chooo.com/images/cover-with-1chooo-com.png)",
+            "url(https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI)",
         }}
       >
         <div

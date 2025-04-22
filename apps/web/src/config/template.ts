@@ -57,7 +57,7 @@ const config: Config = {
       "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
     images: [
       {
-        url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+        url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
         width: 1200,
         height: 630,
         alt: "Pascal Byabasaija - 1chooo Cover Image",
@@ -68,8 +68,8 @@ const config: Config = {
     { path: "/", label: "About" },
     { path: "/resume", label: "Resume" },
     { path: "/portfolio", label: "Portfolio" },
-    { path: "/post", label: "Post" },
-    { path: "/gallery", label: "Gallery" },
+    { path: "/post", label: "Posts" },
+    // { path: "/gallery", label: "Gallery" },
   ],
   contacts: [
     {
@@ -151,7 +151,7 @@ const config: Config = {
         "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
       images: [
         {
-          url: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+          url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
           width: 1200,
           height: 630,
           alt: "Pascal Byabasaija - 1chooo Cover Image",
@@ -164,7 +164,7 @@ const config: Config = {
       title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
       description:
         "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-      images: "https://docs.1chooo.com/images/cover-with-1chooo-com.png",
+      images: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
     },
     icons: {
       icon: "/favicon.ico",

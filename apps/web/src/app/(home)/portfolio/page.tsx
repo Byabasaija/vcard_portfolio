@@ -91,7 +91,7 @@ export default async function Portfolio({
                     placeholder="blur"
                     loading="eager"
                     quality={50}
-                    blurDataURL="https://docs.1chooo.com/images/cover-with-1chooo-com.png"
+                    blurDataURL="https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI"
                   />
                 </figure>
                 <h3 className="project-title">

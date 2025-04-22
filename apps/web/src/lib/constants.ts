@@ -47,4 +47,4 @@ export const breakpoints: Breakpoint[] = [
 export const EXAMPLE_PATH = "blog-starter";
 export const CMS_NAME = "Markdown";
 export const HOME_OG_IMAGE_URL =
-  "https://docs.1chooo.com/images/cover-with-1chooo-com.png";
+  "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI";
