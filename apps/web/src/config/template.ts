@@ -10,6 +10,8 @@ import {
   LuRss,
   LuMail,
   LuMapPin,
+  LuLaptop,
+  LuBookOpen,
 } from "react-icons/lu";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaReact, FaAws } from "react-icons/fa";
@@ -31,30 +33,42 @@ import {
   TbBrandAstro,
   TbBrandTerraform,
   TbPhotoSquareRounded,
+  TbSql,
 } from "react-icons/tb";
 
 const config: Config = {
   avatar: "/images/profile.webp",
-  title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+  title: "Pascal Byabasaija - Software Engineer",
   description:
-    "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
-  author: "Pascal Byabasaija - 1chooo",
+    "Experienced Software Engineer with over 4 years of building scalable web applications across different domains.",
+  author: "Pascal Byabasaija - Personal Website",
   keywords: [
-    "Hugo ChunHo Lin",
-    "1chooo",
+    "Pascal Byabasaija",
+    "Byabasaija",
     "Software Engineering",
-    "Next.js",
+    "Software Engineer",
+    "Software Development",
+    "Web Development",
+    "Open Source",
+    "Open Source Contributor",
+    "Open Source Enthusiast",
+    "FastAPI",
+    "Flask",
+    "Python",
+    "JavaScript",
+    "TypeScript",
     "React",
+    "Next.js",
   ],
-  status: "Building until Scale is an Issue 🚀",
-  siteURL: "https://www.1chooo.com",
+  status: "Building to scale🚀",
+  siteURL: "https://byabasaija.com",
   openGraph: {
-    url: "https://www.1chooo.com/",
+    url: "https://byabasaija.com",
     type: "website",
-    siteName: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
-    title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+    siteName: "Pascal Byabasaija - Software Engineer",
+    title: "Pascal Byabasaija - Software Engineer",
     description:
-      "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+      "Experienced Software Engineer with over 4 years of building scalable web applications across different domains.",
     images: [
       {
         url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
@@ -75,53 +89,53 @@ const config: Config = {
     {
       icon: LuMapPin,
       title: "Location",
-      content: "Taipei, Taiwan 🇹🇼",
+      content: "Kampala, Uganda 🇺🇬",
     },
     {
       icon: LuMail,
       title: "Email",
-      link: "mailto:hugo970217@gmail.com",
-      content: "hugo970217@gmail.com",
+      link: "mailto:basaijapascal9@gmail.com",
+      content: "basaijapascal9@gmail.com",
     },
     {
       icon: LuGithub,
       title: "GitHub",
-      link: "https://github.com/1chooo",
-      content: "@1chooo",
+      link: "https://github.com/Byabasaija",
+      content: "@Byabasaija",
     },
     {
       icon: LuLinkedin,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/1chooo/",
+      link: "https://www.linkedin.com/in/pascal-byabasaija/",
       content: "Pascal Byabasaija",
     },
   ],
   socialLinks: [
     {
-      url: "https://github.com/1chooo",
+      url: "https://github.com/Byabasaija",
       icon: LuGithub,
       name: "GitHub",
     },
     {
-      url: "https://www.linkedin.com/in/1chooo/",
+      url: "https://www.linkedin.com/in/pascal-byabasaija/",
       icon: LuLinkedin,
       name: "LinkedIn",
     },
     {
-      url: "https://medium.com/@1chooo",
+      url: "https://medium.com/@Byabasaija",
       icon: PiMediumLogoBold,
       name: "Medium",
     },
-    {
-      url: "https://twitter.com/1chooo___",
-      icon: FaXTwitter,
-      name: "Twitter",
-    },
-    {
-      url: `/rss.xml`,
-      icon: LuRss,
-      name: "RSS Feed",
-    },
+    // {
+    //   url: "https://twitter.com/1chooo___",
+    //   icon: FaXTwitter,
+    //   name: "Twitter",
+    // },
+    // {
+    //   url: `/rss.xml`,
+    //   icon: LuRss,
+    //   name: "RSS Feed",
+    // },
     {
       url: `/cv`,
       icon: MdAttachment,
@@ -129,41 +143,52 @@ const config: Config = {
     },
   ],
   homeMetaData: {
-    metadataBase: new URL("https://www.1chooo.com"),
-    title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+    metadataBase: new URL("https://byabasaija.com"),
+    title: "Pascal Byabasaija - Software Engineer",
     description:
-      "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+      "Experienced Software Engineer with over 4 years of building scalable web applications across different domains.",
     authors: [{ name: "Pascal Byabasaija" }],
     creator: "Pascal Byabasaija",
     keywords: [
       "Pascal Byabasaija",
-      "1chooo",
+      "Byabasaija",
       "Software Engineering",
+      "Software Engineer",
+      "Software Development",
+      "Web Development",
+      "Open Source",
+      "Open Source Contributor",
+      "Open Source Enthusiast",
+      "FastAPI",
+      "Flask",
+      "Python",
+      "JavaScript",
+      "TypeScript",
       "Next.js",
       "React",
     ],
     openGraph: {
-      url: "https://www.1chooo.com/",
+      url: "https://byabasaija.com",
       type: "website",
-      siteName: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
-      title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+      siteName: "Pascal Byabasaija - Software Engineer",
+      title: "Pascal Byabasaija - Software Engineer",
       description:
-        "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+        "Experienced Software Engineer with over 4 years of building scalable web applications across different domains.",
       images: [
         {
           url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
           width: 1200,
           height: 630,
-          alt: "Pascal Byabasaija - 1chooo Cover Image",
+          alt: "Pascal Byabasaija - Byabasaija Cover Image",
         },
       ],
     },
     manifest: "/manifest.json",
     twitter: {
       card: "summary_large_image",
-      title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+      title: "Pascal Byabasaija - Software Engineer",
       description:
-        "I'm Pascal Byabasaija, a graduate with a Bachelor's degree from National Central University (NCU) 🐿️, driven by a sincere passion for Software Engineering 💻.",
+        "Experienced Software Engineer with over 4 years of building scalable web applications across different domains.",
       images: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
     },
     icons: {
@@ -179,223 +204,190 @@ const config: Config = {
     },
   },
   about: {
-    firstName: "Chun-Ho",
-    lastName: "Lin",
-    middleName: "",
-    preferredName: "Hugo",
-    additionalName: "Hugo",
-    pronouns: "He/Him",
-    githubUsername: "1chooo",
-    introduction: `
-I obtained my Bachelor's degree from [National Central University 🐿️](https://www.ncu.edu.tw/), driven by a *sincere passion* for **Software Engineering 💻.**
-
-Software is built by humans. Unfortunately, humans make errors, ***LOTS of ERRORS 💣.*** Throughout human history, humans have learned to craft machines and tools to help us construct complex architecture. Inspired by this, I explore practical methodologies and tools to improve large-scale software systems' quality, reliability, and efficiency.
-
-In my spare time, I focus on contributing to open-source projects, alongside working out 💪🏻, capturing street photography 📸, and writing tech content ✍🏻.
-
-**Self-motivated, Team player, Love coding 👨🏻‍💻**
-    `,
-    lifestyles: [
-      {
-        icon: LuGithub,
-        title: "Open Source",
-        text: "Actively contributing to open source projects on GitHub.",
+      firstName: "Pascal",
+      lastName: "Byabasaija",
+      middleName: "",
+      preferredName: "",
+      additionalName: "",
+      pronouns: "He/Him",
+      githubUsername: "Byabasaija",
+      introduction: `
+  **Experienced Software Engineer** with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture. **Served as Project Lead** at fast-paced startups, driving high-impact projects and engineering excellence. **Proven track record** of building scalable, high-quality solutions with modern technologies. **Known for leading lean teams** and delivering over 60% improvement in engineering productivity. 🚀
+  
+  **Self-motivated, Team player, Love coding 👨🏻‍💻**
+      `,
+      lifestyles: [
+        
+          {
+            icon: LuBookOpen,
+            title: "Studying",
+            text: "Continuously learning programming concepts and exploring books on entrepreneurship, personal development, and innovative technologies.",
+          },
+          {
+            icon: LuPencil,
+            title: "Technical writing",
+            text: "Passionate about sharing knowledge and experiences through technical writing.",
+          },
+          {
+            icon: LuLaptop,
+            title: "Hackathons",
+            text: "Regular hackathon participant with expertise in rapid prototyping and collaborative problem-solving.",
+          },
+          {
+            icon: GoalIcon,
+            title: "Athletics",
+            text: "Dedicated marathon runner who finds meditation and peak performance through long-distance running.",
+          },
+          
+      ],
+      techStacks: {
+        programmingLanguages: [
+          { name: "Python", icon: AiOutlinePython },
+          { name: "TypeScript", icon: TbBrandTypescript },
+          { name: "SQL", icon: TbSql },
+          { name: "JavaScript", icon: RiJavascriptLine },
+          
+        ],
+        frameworks: [
+          { name: "React", icon: FaReact },
+          { name: "FastAPI", icon: SiFastapi },
+          { name: "Flask", icon: BiLogoFlask },
+          { name: "Linux Terminal", icon: VscTerminalLinux },
+          { name: "AWS", icon: FaAws },
+          { name: "Next.js", icon: TbBrandNextjs },
+          { name: "Docker", icon: TbBrandDocker },
+          { name: "MySQL", icon: TbBrandMysql },
+          { name: "Postman", icon: SiPostman },
+        ],
       },
-      {
-        icon: LuPencil,
-        title: "Storytelling",
-        text: "Love to share my knowledge and experience with others.",
-      },
-      {
-        icon: GoalIcon,
-        title: "Workouts",
-        text: "Basketball and weight training defines my active workout lifestyle.",
-      },
-      {
-        icon: TbPhotoSquareRounded,
-        title: "Photography",
-        text: "Sky brings freedom; streets, a reminder of others' contributions.",
-      },
-    ],
-    techStacks: {
-      programmingLanguages: [
-        { name: "Python", icon: AiOutlinePython },
-        { name: "TypeScript", icon: TbBrandTypescript },
-        { name: "Golang", icon: TbBrandGolang },
-        { name: "C++", icon: TbBrandCpp },
-        { name: "Java", icon: RiJavaLine },
-        { name: "JavaScript", icon: RiJavascriptLine },
-        { name: "LaTeX", icon: SiLatex },
-        { name: "Markdown", icon: TbMarkdown },
-        { name: "Astro", icon: TbBrandAstro },
-        { name: "Terraform", icon: TbBrandTerraform },
-      ],
-      frameworks: [
-        { name: "React", icon: FaReact },
-        { name: "FastAPI", icon: SiFastapi },
-        { name: "Flask", icon: BiLogoFlask },
-        { name: "Redis", icon: DiRedis },
-        { name: "Linux Terminal", icon: VscTerminalLinux },
-        { name: "AWS", icon: FaAws },
-        { name: "Next.js", icon: TbBrandNextjs },
-        { name: "Docker", icon: TbBrandDocker },
-        { name: "MySQL", icon: TbBrandMysql },
-        { name: "Django", icon: TbBrandDjango },
-        { name: "Kubernetes", icon: SiKubernetes },
-        { name: "Postman", icon: SiPostman },
-        { name: "Azure", icon: VscAzure },
-      ],
     },
-  },
-  resume: {
-    educations: {
-      icon: IoSchoolOutline,
-      title: "Education",
-      items: [
-        {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Bachelors of Science in Atmospheric Science",
-          duration: "Sep. 2020 — Jun. 2024",
-          tasksMarkdown: `
-- **Minor Specialty:** Computer Science & Information Engineering
-- **Graduate-level Courses:** The Attack and Defense of Computers, Object-Oriented Analysis and Design.
-- **B.S.-level Courses:** Software Engineering, Principles of Programming Languages, Assembly Language and System Programming, Operating System, Computer Network, Algorithmics, Data Structures, Digital Design, Numerical Analysis
-- TA: Linux and Edge Computing, Programming Python, Weather and Artificial Intelligence, Freshman English, Student Service-Learning
-        `,
-        },
-      ],
-    },
-    awardLeaderships: {
-      icon: PiTrophy,
-      title: "Award & Leaderships",
-      items: [
-        {
-          company: "2023 Weather Hackathon",
-          location: "Taipei, Taiwan",
-          role: "Team Leader, Full Stack Developer",
-          duration: "May, 2023 - Aug, 2023",
-          tasksMarkdown: `
-- The second place winner, as well as the Executive Yuan Sustainability Special Award 
-<sup>[[News](https://www.weatherrisk.com/post/%E7%AC%AC%E4%BA%8C%E5%B1%86-%E5%A4%A9%E6%B0%A3%E9%BB%91%E5%AE%A2%E6%9D%BE-%E5%9C%93%E6%BB%BF%E6%88%90%E5%8A%9F%EF%BC%8Cesg%E3%80%81%E6%B0%B8%E7%BA%8C%E8%AD%B0%E9%A1%8C%E5%8F%97%E8%A9%95%E5%AF%A9%E8%A6%AA%E7%9D%9E)] | 
-[[GitHub](https://github.com/Weather-Shakespeare)] | 
-[[Blog](https://weather-shakespeare.github.io/)]</sup>
-        `,
-        },
-      ],
-    },
-    teachingExperiences: {
-      icon: PiBooks,
-      title: "Teaching",
-      items: [
-        {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Teaching Assistant",
-          duration: "Feb. 2021 - Jun. 2024",
-          tasksMarkdown: `
-- GS4538 Linux and Edge Computing, 24 Spring, Dr. Chia-Kai Chang <sup>[[Website](https://ncuedu.tw/course/linux)] | [[GitHub](https://github.com/NCU-GS4538-Linux)]</sup>
-- AP4064 Weather and Artificial Intelligence II, 24 Spring, Mr. Che-Wei Chou <sup>[[GitHub](https://github.com/weather-and-ai)]</sup>
-- AP4063 Weather and Artificial Intelligence I, 23 Fall, Mr. Che-Wei Chou <sup>[[GitHub](https://github.com/weather-and-ai)]</sup>
-- GS4719 Python Programming, 23 Fall, Dr. Chia-Kai Chang <sup>[[Website](https://ncuedu.tw/course/python)] | [[GitHub](https://github.com/NCU-GS4719-Python)]</sup>
-- Freshman English, 22 Fall & 23 Spring Dr. Chen, Jou-Yin
-- Student Service-Learning, 21 Spring, Prof. Wei-Yu Chang
-        `,
-        },
-      ],
-    },
-    professionalExperiences: {
-      icon: MdOutlineDevices,
-      title: "Professional Experience",
-      items: [
-        {
-          company: "eCloudvalley Digital Technology",
-          location: "New Taipei, Taiwan",
-          role: "Cloud Engineer Intern",
-          duration: "Mar. 2024 - May. 2024",
-          tasksMarkdown: `
-- Led a team of 5 to enhance issue pools with AWS Bedrock, boosting cloud support efficiency by 80% through multi-language support and 95% accurate image recognition. Honored as the top-achieving internship team.
-- Utilized a serverless architecture on AWS Lambda, performing troubleshooting with CloudWatch, deployed via AWS CDK, and integrated with DynamoDB and Bedrock services.
-- Documented issues in 10+ mock cases, such as VPC entry failures, EC2 Apache server restarts, and S3 photo access problems, and provided detailed solutions for interns. Refer [here](https://github.com/1chooo/ecv-training-materials/tree/main/msp/aws_challenge) for a comprehensive list.
+    resume: {
+      educations: {
+        icon: IoSchoolOutline,
+        title: "Education",
+        items: [
+          
+          {
+            company: "Microverse Inc",
+            location: "San Fransinco, CA",
+            role: "Fullstack Software Development",
+            duration: "Mar. 2020 - Oct. 2020 ",
+            tasksMarkdown: `
+  - **Dedicated over 1,500 hours to mastering web development** remotely,
+  collaborating with a global community of software developers.
+  - **Actively participated in peer-to-peer code reviews with over 50 different
+  students** improving code quality by incorporating feedback and
+  enhancing collaborative learning.
+  - **Contributed to real-world projects by applying** newly acquired skills to
+  develop over 5 practical, production-ready applications.
+  
           `,
-        },
-        {
-          company: "Amazon Web Services",
-          location: "Taipei, Taiwan",
-          role: "Campus Ambassador",
-          duration: "Aug. 2023 - Jan. 2024",
-          tasksMarkdown: `
-- Educated 700+ cloud developers and achieved 96% user satisfaction by conducting 2 technical workshops, developing an open-source project, and 1 UAD with AWS cloud services. Refer [here](https://github.com/aws-educate-tw/aws-line-business-card-workshop) for the source code.
-- Conducted a comprehensive 35+ page market research study on cloud suppliers as part of an 11-member team.
+          },
+          {
+            company: "Ndejje University",
+            location: "Kampala, Uganda",
+            role: "Bachelors in Information Technology",
+            duration: "Aug. 2020 — Oct. 2023",
+            tasksMarkdown: `
+  - **Coursework included programming in:** C++ and PHP, Database and System
+  administration, Operating systems, Project management, Communication
+  skills, Research methods etc.
+  
           `,
-        },
+          },
+        ],
+      },
+      
+      professionalExperiences: {
+        icon: MdOutlineDevices,
+        title: "Professional Experience",
+        items: [
+          {
+            company: "Dissimilar Media(formerly Backlink Africa)",
+            location: "Kampala, Uganda",
+            role: "Fullstack Software Engineer",
+            duration: "May. 2024 - Present",
+            tasksMarkdown: `
+  - Spearheaded the full-stack development and launch of Monetize 54, a digital services marketplace, integrating front-end (NextJS 14), back-end (FastAPI), and database (MongoDB) components.
+  - Integrated PayPal payments into Monetize 54, enabling secure and seamless transactions for users and contributing to a 20% increase in successful payment processing within the first quarter.
+  - Implemented secure, in-app messaging functionality for Monetize 54, enhancing user communication and leading to a 15% improvement in user engagement metrics.
+  - Developed and deployed recommendation algorithms for Monetize 54, resulting in a 10% uplift in cross-selling of services and an improved user experience.
+  - Engineered fast full-text search capabilities for Monetize 54 using Typesense, reducing search query times by 60% and improving user satisfaction.
+  - Designed and optimized cloud infrastructure on Hetzner using Docker and Traefik, with CI/CD pipelines enabling seamless deployments—resulting in a 30% improvement in platform performance and a 25% reduction in hosting costs.
+            `,
+          },
+          {
+            company: "Mara Scientific",
+            location: "Kampala, Uganda",
+            role: "Project Lead",
+            duration: "Oct 2023 - March. 2024",
+            tasksMarkdown: `
+  - Was promoted to Project Lead after resolving a critical project delay, successfully mediating between client, management, and engineering teams, resulting in a 60% improvement in delivery times.
+  - Collaborated with the DevOps team to increase system uptime from 60% to 90% by optimizing infrastructure and scaling systems to handle increased demand and traffic.
+  - Introduced the deployment of cloud-based and offline instances of the Mpeke HMIS, delivering tailored solutions for both digitized and non-digitized hospitals. This increased customer satisfaction by 15%.
+  - Led a team of 6 engineers to deploy over 10 stalled key features, implementing a new development process that reduced bottlenecks by 30% and improved project efficiency by 25%.
+  - Served as the primary liaison between the engineering team and clients, clarifying project goals and timelines, which rebuilt client trust and increased satisfaction by 20%.
+  - Worked closely with senior management to align engineering efforts with business objectives, playing a key role in strategic planning for new product features and driving a 25% increase in product adoption rates.
+            `,
+          },
+          {
+            company: "Mara Scientific",
+            location: "Kampala, Uganda",
+            role: "Fullstack Software Engineer",
+            duration: "Nov. 2020 - Oct. 2023",
+            tasksMarkdown: `
+  - Spearheaded the development of intuitive user interfaces for healthcare applications using React, resulting in a 40% improvement in user satisfaction ratings from medical professionals interacting with the systems.
+  - Transitioned to Full-Stack Developer by quickly learning Python and Flask, bridging frontend and backend teams and ensuring smooth project progression, reducing feature completion time by 40%.
+  - Provided technical support to customers, particularly during system downtimes, ensuring swift issue resolution and minimal service disruption by 20%.
+  - Implemented code linting rules across the codebase, improved code quality, reduced code review time by 30%, and decreased post-deployment bugs.
+            `,
+          },
+        ],
+      },
+    },
+    jsonLdPerson: {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "@id": "https://byabasaija.com/#person",
+      givenName: "Pascal",
+      familyName: "Byabasaija",
+      additionalName: "",
+      gender: "male",
+      birthPlace: "Kampala, Uganda",
+      nationality: "Ugandan",
+      alumniOf: [
         {
-          company: "PEGATRON Corporation",
-          location: "Taipei, Taiwan",
-          role: "Software Engineer Intern",
-          duration: "Jul. 2023 - Aug. 2023",
-          tasksMarkdown: `
-- Executed a POC, adapting an LLM model for Smart Manufacturing, and was awarded Silver internship team.
-- Collaborated with a team of 5, utilized Git, a CI/CD pipeline, and followed an agile Scrum workflow.
-- Implemented Prompt Engineering and LangChain for the NVIDIA Ominerve visual robot, enabling seamless speech/text operation, boosting test support by 83% across 6-11 scenarios with 85% stability.
-          `,
-        },
-        {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Website Developer",
-          duration: "Jul. 2022 - Jan. 2023",
-          tasksMarkdown: `
-- Partnered with a team of 2 to develop a multi-user score management system for the Center for Teacher Education, reducing credit exemption processing time by 80% and remotely maintaining the server via SSH.
-          `,
+          "@type": "CollegeOrUniversity",
+          name: "National Central University",
+          sameAs: "https://www.ncu.edu.tw/",
         },
       ],
+      jobTitle: "Software Engineer",
+      skills: "Software Engineering, Web Development, Open Source",
+      image: "https://byabasaija.com/images/profile.jpeg",
+      url: "https://byabasaija.com/",
+      sameAs: [
+        "https://www.linkedin.com/in/pascal-byabasaija/",
+        "http://github.com/Byabasaija",
+      ],
     },
-  },
-  jsonLdPerson: {
-    "@context": "http://schema.org",
-    "@type": "Person",
-    "@id": "https://www.1chooo.com/#person",
-    givenName: "Chun-Ho",
-    familyName: "Lin",
-    additionalName: "Hugo",
-    gender: "male",
-    birthPlace: "New Taipei, TW",
-    nationality: "Taiwan",
-    alumniOf: [
-      {
-        "@type": "CollegeOrUniversity",
-        name: "National Central University",
-        sameAs: "https://www.ncu.edu.tw/",
-      },
-    ],
-    jobTitle: "Software Engineer",
-    skills: "Software Engineering, Web Development, Open Source",
-    image: "https://www.1chooo.com/images/profile.webp",
-    url: "https://www.1chooo.com",
-    sameAs: [
-      "https://www.linkedin.com/in/1chooo/",
-      "http://github.com/1chooo",
-      "https://medium.com/@1chooo",
-    ],
-  },
-  giscusConfig: {
-    id: "comments",
-    repo: "1chooo/1chooo.com",
-    repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "",
-    category: "General",
-    categoryId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_CATEGORY_ID || "",
-    mapping: "pathname",
-    term: "Welcome to @giscus/react component!",
-    reactionsEnabled: "1",
-    emitMetadata: "1",
-    inputPosition: "bottom",
-    theme: "dark_tritanopia",
-    lang: "en",
-    loading: "lazy",
-  },
-  googleAnalyticId: process.env.NEXT_PUBLIC_GA_ID || "",
-  googleTagManagerId: process.env.NEXT_PUBLIC_GTM_ID || "",
-};
+    giscusConfig: {
+      id: "comments",
+      repo: "Byabasaija/vcard_portfolio",
+      repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "",
+      category: "General",
+      categoryId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_CATEGORY_ID || "",
+      mapping: "pathname",
+      term: "Welcome to @giscus/react component!",
+      reactionsEnabled: "1",
+      emitMetadata: "1",
+      inputPosition: "bottom",
+      theme: "dark_tritanopia",
+      lang: "en",
+      loading: "lazy",
+    },
+    googleAnalyticId: process.env.NEXT_PUBLIC_GA_ID || "",
+    googleTagManagerId: process.env.NEXT_PUBLIC_GTM_ID || "",
+  };
 
 export default config;

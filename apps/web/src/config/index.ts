@@ -277,44 +277,7 @@ skills, Research methods etc.
         },
       ],
     },
-    awardLeaderships: {
-      icon: PiTrophy,
-      title: "Award & Leaderships",
-      items: [
-        {
-          company: "2023 Weather Hackathon",
-          location: "Taipei, Taiwan",
-          role: "Team Leader, Full Stack Developer",
-          duration: "May, 2023 - Aug, 2023",
-          tasksMarkdown: `
-- The second place winner, as well as the Executive Yuan Sustainability Special Award 
-<sup>[[News](https://www.weatherrisk.com/post/%E7%AC%AC%E4%BA%8C%E5%B1%86-%E5%A4%A9%E6%B0%A3%E9%BB%91%E5%AE%A2%E6%9D%BE-%E5%9C%93%E6%BB%BF%E6%88%90%E5%8A%9F%EF%BC%8Cesg%E3%80%81%E6%B0%B8%E7%BA%8C%E8%AD%B0%E9%A1%8C%E5%8F%97%E8%A9%95%E5%AF%A9%E8%A6%AA%E7%9D%9E)] | 
-[[GitHub](https://github.com/Weather-Shakespeare)] | 
-[[Blog](https://weather-shakespeare.github.io/)]</sup>
-        `,
-        },
-      ],
-    },
-    teachingExperiences: {
-      icon: PiBooks,
-      title: "Teaching",
-      items: [
-        {
-          company: "National Central University",
-          location: "Taoyuan, Taiwan",
-          role: "Teaching Assistant",
-          duration: "Feb. 2021 - Jun. 2024",
-          tasksMarkdown: `
-- GS4538 Linux and Edge Computing, 24 Spring, Dr. Chia-Kai Chang <sup>[[Website](https://ncuedu.tw/course/linux)] | [[GitHub](https://github.com/NCU-GS4538-Linux)]</sup>
-- AP4064 Weather and Artificial Intelligence II, 24 Spring, Mr. Che-Wei Chou <sup>[[GitHub](https://github.com/weather-and-ai)]</sup>
-- AP4063 Weather and Artificial Intelligence I, 23 Fall, Mr. Che-Wei Chou <sup>[[GitHub](https://github.com/weather-and-ai)]</sup>
-- GS4719 Python Programming, 23 Fall, Dr. Chia-Kai Chang <sup>[[Website](https://ncuedu.tw/course/python)] | [[GitHub](https://github.com/NCU-GS4719-Python)]</sup>
-- Freshman English, 22 Fall & 23 Spring Dr. Chen, Jou-Yin
-- Student Service-Learning, 21 Spring, Prof. Wei-Yu Chang
-        `,
-        },
-      ],
-    },
+   
     professionalExperiences: {
       icon: MdOutlineDevices,
       title: "Professional Experience",
@@ -365,13 +328,13 @@ skills, Research methods etc.
   jsonLdPerson: {
     "@context": "http://schema.org",
     "@type": "Person",
-    "@id": "https://www.1chooo.com/#person",
-    givenName: "Chun-Ho",
-    familyName: "Lin",
-    additionalName: "Hugo",
+    "@id": "https://byabasaija.com/#person",
+    givenName: "Pascal",
+    familyName: "Byabasaija",
+    additionalName: "",
     gender: "male",
-    birthPlace: "New Taipei, TW",
-    nationality: "Taiwan",
+    birthPlace: "Kampala, Uganda",
+    nationality: "Ugandan",
     alumniOf: [
       {
         "@type": "CollegeOrUniversity",
@@ -381,17 +344,16 @@ skills, Research methods etc.
     ],
     jobTitle: "Software Engineer",
     skills: "Software Engineering, Web Development, Open Source",
-    image: "https://www.1chooo.com/images/profile.webp",
-    url: "https://www.1chooo.com",
+    image: "https://byabasaija.com/images/profile.jpeg",
+    url: "https://byabasaija.com/",
     sameAs: [
-      "https://www.linkedin.com/in/1chooo/",
-      "http://github.com/1chooo",
-      "https://medium.com/@1chooo",
+      "https://www.linkedin.com/in/pascal-byabasaija/",
+      "http://github.com/Byabasaija",
     ],
   },
   giscusConfig: {
     id: "comments",
-    repo: "1chooo/1chooo.com",
+    repo: "Byabasaija/vcard_portfolio",
     repoId: process.env.NEXT_PUBLIC_GISCUS_REPO_ID || "",
     category: "General",
     categoryId: process.env.NEXT_PUBLIC_GISCUS_CONFIG_CATEGORY_ID || "",
