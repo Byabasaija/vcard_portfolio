@@ -2,15 +2,15 @@ import IconTitle from "./icon-title";
 import TimelineList from "./timeline-list";
 import type { ProfessionalExperience } from "@/types/resume";
 import type { Education } from "@/types/resume";
-import type { AwardLeaderships } from "@/types/resume";
-import type { TeachingExperience } from "@/types/resume";
+// import type { AwardLeaderships } from "@/types/resume";
+// import type { TeachingExperience } from "@/types/resume";
 
 interface TimeLineProps {
   data:
     | ProfessionalExperience
     | Education
-    | AwardLeaderships
-    | TeachingExperience;
+    // | AwardLeaderships
+    // | TeachingExperience;
 }
 
 function TimeLine({ data }: TimeLineProps) {

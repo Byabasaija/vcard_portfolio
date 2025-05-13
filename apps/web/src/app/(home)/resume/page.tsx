@@ -9,8 +9,8 @@ const { title, resume } = config;
 const {
   professionalExperiences,
   educations,
-  awardLeaderships,
-  teachingExperiences,
+  // awardLeaderships,
+  // teachingExperiences,
 } = resume;
 
 export const metadata: Metadata = {
