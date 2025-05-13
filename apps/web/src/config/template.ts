@@ -212,7 +212,10 @@ const config: Config = {
       pronouns: "He/Him",
       githubUsername: "Byabasaija",
       introduction: `
-  **Experienced Software Engineer** with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture. **Served as Project Lead** at fast-paced startups, driving high-impact projects and engineering excellence. **Proven track record** of building scalable, high-quality solutions with modern technologies. **Known for leading lean teams** and delivering over 60% improvement in engineering productivity. 🚀
+  **Experienced Full-Stack Developer with over 4 years of building scalable web applications across
+different domains. Adept in React, Next.js, FastAPI, Flask, MongoDB, Docker, and CI/CD
+pipelines. Proven leadership in managing cross-functional teams, optimizing infrastructure, and
+delivering user-centric software products. 🚀
   
   **Self-motivated, Team player, Love coding 👨🏻‍💻**
       `,
