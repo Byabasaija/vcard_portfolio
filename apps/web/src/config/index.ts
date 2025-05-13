@@ -213,8 +213,8 @@ delivering user-centric software products. 🚀
         },
         {
           icon: LuLaptop,
-          title: "Hackathons",
-          text: "Regular hackathon participant with expertise in rapid prototyping and collaborative problem-solving.",
+          title: "Open Source",
+          text: "Active contributor to open source projects, focusing on web development tools and utilities that improve developer experience.",
         },
         {
           icon: GoalIcon,

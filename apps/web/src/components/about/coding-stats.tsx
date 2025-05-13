@@ -82,13 +82,14 @@ function CodingStats({ techStacks, githubUsername }: CodingStatsProps) {
         <section id="github-calendar" className="text-light-gray mt-5">
           <GitHubCalendar
             username={githubUsername}
-            blockSize={12}
+            blockSize={10.5}
             blockMargin={4}
             colorScheme="dark"
             blockRadius={2}
             fontSize={14}
             style={{ fontWeight: "bold" }}
             theme={yellowTheme}
+            autoScrollToLatest={true}
           />
         </section>
       </BlurFade>
