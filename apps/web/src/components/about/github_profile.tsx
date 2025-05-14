@@ -3,6 +3,10 @@
 import config from '@/config';
 import { useState } from 'react';
 import GitHubCalendar from 'react-github-calendar';
+import { LuMapPin } from 'react-icons/lu';
+import Globe from './globe';
+import { BlurFade } from '../magicui/blur-fade';
+import CodeHeader from '../section/about/code-header';
 
 const { about } = config;
 const {
@@ -35,31 +39,59 @@ export default function GitHubProfile() {
         <strong>Currently seeking new opportunities in software development.</strong>
       </blockquote>
 
-      <div className="flex  mb-6">
+      <div className="flex mb-6">
         <img src="https://img.shields.io/badge/OPEN_TO_WORK-brightgreen?style=for-the-badge" alt="Open To Work" />
       </div>
+      <section id="coding-stats mb-6">
+            <BlurFade inView delay={0.4} direction="down">
+                <CodeHeader id="coding-stats" text="$ Coding Stats" />
+            </BlurFade>
+            
 
-      <div className="flex flex-wrap gap-4 mb-6">
-        <img 
-          src="https://github-readme-stats.vercel.app/api?username=Byabasaija&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&hide=contribs" 
-          alt="GitHub Stats" 
-          className="h-auto" 
-        />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Byabasaija&theme=tokyonight&hide_border=true" height="170px"/>
-      </div>
+            <BlurFade inView delay={0.4} direction="left">
+                    <ul className="mt-[30px] grid grid-cols-1 gap-[20px] md:grid-cols-2 lg:grid-cols-2 lg:gap-y-[20px] lg:gap-x-[25px]">
+                        <li className="relative rounded-2xl shadow-shadow-2 coding-item bg-gradient-onyx before:absolute before:content-[''] before:rounded-2xl">
+                        <div className="shadow-feature-card dark:shadow-feature-card-dark flex flex-col gap-2 overflow-hidden rounded-xl p-2">
+                        <img 
+                                    src="https://github-readme-stats.vercel.app/api?username=Byabasaija&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&hide=contribs" 
+                                    alt="GitHub Stats" 
+                                    className="h-auto" 
+                                    />
+                        </div>
+                        </li>
+            
+                        <li className="relative rounded-2xl shadow-shadow-2 coding-item bg-gradient-onyx before:absolute before:content-[''] before:rounded-2xl h-[200px] md:h-auto">
+                        <div className="absolute inset-x-0 bottom-[-190px] mx-auto aspect-square h-[388px] [@media(max-width:420px)]:bottom-[-140px] [@media(max-width:420px)]:h-[320px] [@media(min-width:768px)_and_(max-width:858px)]:h-[380px]">
+                            <div className="flex items-center gap-2 text-white-2 mt-4 ml-4">
+                            <LuMapPin size={18} />
+                            <h2 className="text-sm font-light">
+                                Kampala, Uganda (UTC +03:00)
+                            </h2>
+                            </div>
+                            <Globe />
+                        </div>
+                        </li>
+                    </ul>
+                    </BlurFade>
 
-      <GitHubCalendar
-            username={githubUsername}
-            blockSize={12}
-            blockMargin={4}
-            colorScheme="dark"
-            blockRadius={2}
-            fontSize={14}
-            style={{ fontWeight: "bold" }}
+                    <BlurFade inView delay={0.4} direction="up">
+                <section id="github-calendar" className="text-light-gray mt-5">
+                <GitHubCalendar
+                    username={githubUsername}
+                    blockSize={12}
+                    blockMargin={4}
+                    colorScheme="dark"
+                    blockRadius={2}
+                    fontSize={14}
+                    style={{ fontWeight: "bold" }}
+                
+                />
+                </section>
+            </BlurFade>
         
-          />
+        </section>
 
-      <section className="mb-6">
+      <section className="mb-6 mt-6">
         <h2 className="text-2xl font-bold mb-3">🚀 About Me</h2>
         <ul className="list-disc pl-6 space-y-1">
           <li>🔭 I'm a Full-Stack Developer focused on building intuitive, efficient applications</li>

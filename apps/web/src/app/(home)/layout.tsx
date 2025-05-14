@@ -12,6 +12,7 @@ import config from "@/config";
 
 import type { Metadata } from "next";
 import type { JsonLdHtml } from "@/types/json-ld";
+import { Analytics } from "@vercel/analytics/next"
 
 import "@/app/globals.css";
 
@@ -62,8 +63,9 @@ function HomeLayout({ children }: { readonly children: React.ReactNode }) {
           id="application/ld+json"
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLd()}
-          key="1chooo-website-jsonld"
+          key="byabasaija-website-jsonld"
         />
+      <Analytics />
       </body>
       <GoogleAnalytics gaId={googleAnalyticId} />
       <GoogleTagManager gtmId={googleTagManagerId} />
