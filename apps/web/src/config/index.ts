@@ -51,10 +51,10 @@ const config: Config = {
     "Next.js",
     "React",
   ],
-  status: "Building to scale 🚀",
-  siteURL: "https://pascalbyabasaija.vercel.app/",
+  status: "A ship in harbor is safe, but thats not what ships are built for ⛵️",
+  siteURL: "https://byabasaija.com",
   openGraph: {
-    url: "https://pascalbyabasaija.vercel.app/",
+    url: "https://byabasaija.com",
     type: "website",
     siteName: "Pascal Byabasaija - Software Engineer",
     title: "Pascal Byabasaija - Software Engineer",

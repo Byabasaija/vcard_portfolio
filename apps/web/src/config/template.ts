@@ -60,7 +60,7 @@ const config: Config = {
     "React",
     "Next.js",
   ],
-  status: "Building to scale🚀",
+  status: "A ship in harbor is safe, but thats not what ships are built for ⛵️",
   siteURL: "https://byabasaija.com",
   openGraph: {
     url: "https://byabasaija.com",

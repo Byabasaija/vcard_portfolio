@@ -11,6 +11,7 @@ import { LatestArticles } from "@/components/about/latest-articles";
 import config from "@/config";
 
 import markdownStyles from "@/styles/markdown-styles.module.css";
+import GitHubProfile from "@/components/about/github_profile";
 
 const { about } = config;
 const {
@@ -38,15 +39,16 @@ async function About() {
         <PageHeader header={header} />
       </AnimatedSection>
       <AnimatedSection>
-        <CodeHeader id="introduction" text="$ Pascal👨🏻‍💻 " />
+        <GitHubProfile />
+        {/* <CodeHeader id="introduction" text="$ Pascal👨🏻‍💻 " />
         <div
           className={cn(markdownStyles["markdown"])}
           dangerouslySetInnerHTML={{ __html: content }}
-        />
+        /> */}
       </AnimatedSection>
-      {allPosts.length > 0 && <LatestArticles posts={allPosts} />}
+      {/* {allPosts.length > 0 && <LatestArticles posts={allPosts} />}
       <CodingStats techStacks={techStacks} githubUsername={githubUsername} />
-      <LifeStyles lifestyles={lifestyles} />
+      <LifeStyles lifestyles={lifestyles} /> */}
     </article>
   );
 }
