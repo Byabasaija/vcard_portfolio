@@ -82,7 +82,7 @@ function CodingStats({ techStacks, githubUsername }: CodingStatsProps) {
         <section id="github-calendar" className="text-light-gray mt-5">
           <GitHubCalendar
             username={githubUsername}
-            blockSize={10.5}
+            blockSize={12}
             blockMargin={4}
             colorScheme="dark"
             blockRadius={2}
