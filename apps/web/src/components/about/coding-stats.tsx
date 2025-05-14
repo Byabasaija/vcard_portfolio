@@ -89,7 +89,6 @@ function CodingStats({ techStacks, githubUsername }: CodingStatsProps) {
             fontSize={14}
             style={{ fontWeight: "bold" }}
             theme={yellowTheme}
-            autoScrollToLatest={true}
           />
         </section>
       </BlurFade>
