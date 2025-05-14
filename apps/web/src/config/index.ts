@@ -291,38 +291,26 @@ skills, Research methods etc.
           role: "Fullstack Software Engineer",
           duration: "May. 2024 - Present",
           tasksMarkdown: `
-- Spearheaded the full-stack development and launch of Monetize 54, a digital services marketplace, integrating front-end (NextJS 14), back-end (FastAPI), and database (MongoDB) components.
-- Integrated PayPal payments into Monetize 54, enabling secure and seamless transactions for users and contributing to a 20% increase in successful payment processing within the first quarter.
-- Implemented secure, in-app messaging functionality for Monetize 54, enhancing user communication and leading to a 15% improvement in user engagement metrics.
-- Developed and deployed recommendation algorithms for Monetize 54, resulting in a 10% uplift in cross-selling of services and an improved user experience.
+- Built and deployed Monetize 54 using Next.js 14, FastAPI, and MongoDB.
+- Integrated PayPal, increasing transactions by 20%.
+- Engineered in-app messaging and recommendation systems, boosting engagement and
+cross-sell metrics.
 - Engineered fast full-text search capabilities for Monetize 54 using Typesense, reducing search query times by 60% and improving user satisfaction.
-- Designed and optimized cloud infrastructure on Hetzner using Docker and Traefik, with CI/CD pipelines enabling seamless deployments—resulting in a 30% improvement in platform performance and a 25% reduction in hosting costs.
+- Improved cloud performance by 30% through Docker, CI/CD, and Hetzner orchestration.
           `,
         },
         {
           company: "Mara Scientific",
           location: "Kampala, Uganda",
-          role: "Project Lead",
-          duration: "Oct 2023 - March. 2024",
+          role: "Fullstack Software Engineer & Project Lead",
+          duration: "Dec 2020 - March. 2024",
           tasksMarkdown: `
-- Was promoted to Project Lead after resolving a critical project delay, successfully mediating between client, management, and engineering teams, resulting in a 60% improvement in delivery times.
-- Collaborated with the DevOps team to increase system uptime from 60% to 90% by optimizing infrastructure and scaling systems to handle increased demand and traffic.
-- Introduced the deployment of cloud-based and offline instances of the Mpeke HMIS, delivering tailored solutions for both digitized and non-digitized hospitals. This increased customer satisfaction by 15%.
-- Led a team of 6 engineers to deploy over 10 stalled key features, implementing a new development process that reduced bottlenecks by 30% and improved project efficiency by 25%.
-- Served as the primary liaison between the engineering team and clients, clarifying project goals and timelines, which rebuilt client trust and increased satisfaction by 20%.
-- Worked closely with senior management to align engineering efforts with business objectives, playing a key role in strategic planning for new product features and driving a 25% increase in product adoption rates.
-          `,
-        },
-        {
-          company: "Mara Scientific",
-          location: "Kampala, Uganda",
-          role: "Fullstack Software Engineer",
-          duration: "Nov. 2020 - Oct. 2023",
-          tasksMarkdown: `
-- Spearheaded the development of intuitive user interfaces for healthcare applications using React, resulting in a 40% improvement in user satisfaction ratings from medical professionals interacting with the systems.
-- Transitioned to Full-Stack Developer by quickly learning Python and Flask, bridging frontend and backend teams and ensuring smooth project progression, reducing feature completion time by 40%.
-- Provided technical support to customers, particularly during system downtimes, ensuring swift issue resolution and minimal service disruption by 20%.
-- Implemented code linting rules across the codebase, improved code quality, reduced code review time by 30%, and decreased post-deployment bugs.
+- Promoted to lead developer team of 6, delivering healthcare platforms like Mpeke HMIS.
+- Improved system uptime (60% → 90%) and reduced bottlenecks by 30%.
+- Developed full-stack features in healthcare applications with React and Flask.
+- Collaborated with DevOps for cloud/offline deployments; improved client satisfaction by
+20%.
+- Implemented code linting and CI practices, reducing bugs and review times.
           `,
         },
       ],

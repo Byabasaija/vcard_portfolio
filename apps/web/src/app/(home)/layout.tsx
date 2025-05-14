@@ -42,7 +42,7 @@ function HomeLayout({ children }: { readonly children: React.ReactNode }) {
     <html lang="en" className={roboto.className}>
       <WebVitals gaId={googleAnalyticId} />
       <body>
-        <ProgressBar className="fixed top-0 h-1 bg-yellow-500">
+        <ProgressBar className="fixed top-0 h-1 bg-vegas-gold">
           <Hello />
           <main>
             <SideBar

@@ -311,7 +311,7 @@ delivering user-centric software products. 🚀
             role: "Fullstack Software Engineer",
             duration: "May. 2024 - Present",
             tasksMarkdown: `
-  - Spearheaded the full-stack development and launch of Monetize 54, a digital services marketplace, integrating front-end (NextJS 14), back-end (FastAPI), and database (MongoDB) components.
+  - Built and deployed Monetize 54 using Next.js 14, FastAPI, and MongoDB.
   - Integrated PayPal payments into Monetize 54, enabling secure and seamless transactions for users and contributing to a 20% increase in successful payment processing within the first quarter.
   - Implemented secure, in-app messaging functionality for Monetize 54, enhancing user communication and leading to a 15% improvement in user engagement metrics.
   - Developed and deployed recommendation algorithms for Monetize 54, resulting in a 10% uplift in cross-selling of services and an improved user experience.
