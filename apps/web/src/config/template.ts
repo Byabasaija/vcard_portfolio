@@ -74,7 +74,7 @@ const config: Config = {
         url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
         width: 1200,
         height: 630,
-        alt: "Pascal Byabasaija - 1chooo Cover Image",
+        alt: "Pascal Byabasaija - Byabasaija Cover Image",
       },
     ],
   },
@@ -126,16 +126,7 @@ const config: Config = {
       icon: PiMediumLogoBold,
       name: "Medium",
     },
-    // {
-    //   url: "https://twitter.com/1chooo___",
-    //   icon: FaXTwitter,
-    //   name: "Twitter",
-    // },
-    // {
-    //   url: `/rss.xml`,
-    //   icon: LuRss,
-    //   name: "RSS Feed",
-    // },
+   
     {
       url: `/cv`,
       icon: MdAttachment,

@@ -117,11 +117,7 @@ const config: Config = {
       icon: PiMediumLogoBold,
       name: "Medium",
     },
-    // {
-    //   url: "https://twitter.com/1chooo___",
-    //   icon: FaXTwitter,
-    //   name: "Twitter",
-    // },
+   
     {
       url: `/rss.xml`,
       icon: LuRss,
@@ -134,7 +130,7 @@ const config: Config = {
     },
   ],
   homeMetaData: {
-    metadataBase: new URL("https://www.1chooo.com"),
+    metadataBase: new URL("https://www.byabasaija.com"),
     title: "Pascal Byabasaija - Software Engineer",
     description:
       "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
@@ -142,7 +138,7 @@ const config: Config = {
     creator: "Pascal Byabasaija",
     keywords: [
       "Pascal Byabasaija",
-      "1chooo",
+      "byabasaija",
       "Software Engineering",
       "Next.js",
       "React",
@@ -151,7 +147,7 @@ const config: Config = {
       url: "https://pascalbyabasaija.vercel.app",
       type: "website",
       siteName: "Pascal Byabasaija - Software Engineer",
-      title: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+      title: "Pascal Byabasaija - Software Engineer",
       description:
         "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
       images: [
@@ -159,7 +155,7 @@ const config: Config = {
           url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
           width: 1200,
           height: 630,
-          alt: "Pascal Byabasaija - 1chooo Cover Image",
+          alt: "Pascal Byabasaija - Byabasaija Cover Image",
         },
       ],
     },

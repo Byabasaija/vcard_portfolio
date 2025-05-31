@@ -1,19 +1,19 @@
 {
-  "name": "1chooo-com",
+  "name": "byabasaija-com",
   "version": "0.7.1",
   "private": true,
   "license": "CC-BY-4.0",
   "author": {
-    "name": "1chooo",
+    "name": "byabasaija",
     "email": "hugo970217@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/1chooo/1chooo.com"
+    "url": "https://github.com/Byabasaija/vcard_portfolio.com"
   },
-  "homepage": "https://www.1chooo.com",
+  "homepage": "https://www.byabasaija.com",
   "bugs": {
-    "url": "https://github.com/1chooo/1chooo.com/issues"
+    "url": "https://github.com/Byabasaija/vcard_portfolio/issues"
   },
   "keywords": [
     "next",

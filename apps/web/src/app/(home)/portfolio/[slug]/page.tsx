@@ -29,19 +29,19 @@ export async function generateMetadata({
     banner,
   } = post.metadata;
   let ogImage = banner
-    ? `https://1chooo.com${banner}`
-    : `https://1chooo.com/og?title=${title}`;
+    ? `https://byabasaija.com${banner}`
+    : `https://byabasaija.com/og?title=${title}`;
 
   return {
     title,
     description,
     openGraph: {
       title,
-      siteName: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+      siteName: "Pascal Byabasaija - Software Engineer | OSS | AI",
       description,
       type: "article",
       publishedTime,
-      url: `https://1chooo.com/portfolio/${post.slug}`,
+      url: `https://byabasaija.com/portfolio/${post.slug}`,
       locale: "en_US",
       images: [
         {

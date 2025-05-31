@@ -7,9 +7,7 @@ export type Resume = {
   professionalExperiences: ProfessionalExperience;
 };
 
-/**
- * TODO: https://github.com/1chooo/1chooo.com/issues/98
- */
+
 export type ResumeProps = {
   name: string;
   title: string;

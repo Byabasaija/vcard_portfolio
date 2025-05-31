@@ -35,19 +35,19 @@ export async function generateMetadata({
     banner,
   } = post.metadata;
   let ogImage = banner
-    ? `https://1chooo.com${banner}`
-    : `https://1chooo.com/og?title=${title}`;
+    ? `https://byabasaija.com${banner}`
+    : `https://byabasaija.com/og?title=${title}`;
 
   return {
     title,
     description,
     openGraph: {
       title,
-      siteName: "Pascal Byabasaija - 1chooo | Open Source Enthusiast",
+      siteName: "Pascal Byabasaija - Software Engineer | OSS | AI",
       description,
       type: "article",
       publishedTime,
-      url: `https://1chooo.com/post/${post.slug}`,
+      url: `https://byabasaija.com/post/${post.slug}`,
       locale: "en_US",
       images: [
         {
@@ -118,7 +118,7 @@ export default async function Post(props: { params: tParams }) {
     notFound();
   }
 
-  const shareUrl = `https://www.1chooo.com/post/${post.slug}`;
+  const shareUrl = `https://www.byabasaija.com/post/${post.slug}`;
   const shareText = `Check out this post:`;
 
   return (

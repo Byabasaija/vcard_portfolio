@@ -115,7 +115,7 @@ function RootLayout({ children }: { readonly children: React.ReactNode }) {
           id="application/ld+json"
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLd()}
-          key="1chooo-website-jsonld"
+          key="byabasaija-website-jsonld"
         />
       </body>
       <GoogleAnalytics gaId={googleAnalyticId} />

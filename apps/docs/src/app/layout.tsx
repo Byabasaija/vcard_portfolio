@@ -11,16 +11,16 @@ export const metadata = {
 
 const banner = (
   <Banner storageKey="some-key">
-    Made with 🖤 by <Link href="https://github.com/1chooo">@1chooo</Link>
+    Made with 🖤 by <Link href="https://github.com/Byabasaija">@Byabasaija</Link>
   </Banner>
 );
 const navbar = (
   <Navbar
     logo={<img src="/favicon.ico" alt="Logo" width={40} height={40} />}
-    projectLink="https://github.com/1chooo/1chooo.com"
+    projectLink="https://github.com/Byabasaija/vcard_portfolio"
   />
 );
-const footer = <Footer>2024 - {new Date().getFullYear()} © 1chooo.</Footer>;
+const footer = <Footer>2024 - {new Date().getFullYear()} © Byabasaija.</Footer>;
 
 export default async function RootLayout({ children }) {
   return (

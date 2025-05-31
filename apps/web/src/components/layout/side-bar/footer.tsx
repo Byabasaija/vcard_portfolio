@@ -15,30 +15,7 @@ function Footer() {
           Pascal Byabasaija
         </Link>
       </div>
-      {/* <div className="space-x-4">
-        <Link
-          className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://github.com/Byabasaija"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code
-        </Link>
-        <Link
-          className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="/terms"
-        >
-          Terms
-        </Link>
-        <Link
-          className="inline text-orange-yellow-crayola underline hover:text-opacity-70"
-          href="https://docs.1chooo.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Docs
-        </Link>
-      </div> */}
+      
     </footer>
   );
 }

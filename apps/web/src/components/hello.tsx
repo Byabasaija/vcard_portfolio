@@ -14,9 +14,9 @@ function Hello() {
         |   |
        _|   |_
 
-Hi There 👋 This is Hugo!
+Hi There 👋 This is Pascal!
 
-Love the design? Star ✨ on https://github.com/1chooo/1chooo.com
+Love the design? Star ✨ on https://github.com/Byabasaija/vcard_portfolio
 `);
   }, []);
 
