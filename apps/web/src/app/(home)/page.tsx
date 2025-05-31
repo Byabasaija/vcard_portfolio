@@ -38,14 +38,14 @@ async function About() {
       <AnimatedSection id="about">
         <PageHeader header={header} />
       </AnimatedSection>
-      <AnimatedSection>
+      {/* <AnimatedSection> */}
         <GitHubProfile />
         {/* <CodeHeader id="introduction" text="$ Pascal👨🏻‍💻 " />
         <div
           className={cn(markdownStyles["markdown"])}
           dangerouslySetInnerHTML={{ __html: content }}
         /> */}
-      </AnimatedSection>
+      {/* </AnimatedSection> */}
       {/* {allPosts.length > 0 && <LatestArticles posts={allPosts} />}
       <CodingStats techStacks={techStacks} githubUsername={githubUsername} />
       <LifeStyles lifestyles={lifestyles} /> */}

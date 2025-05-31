@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect } from "react";
-
 function Hello() {
-  useEffect(() => {
-    console.log(`
+  return (
+    <div className="p-4 bg-gray-900 text-white rounded-lg shadow-lg text-center max-w-md mx-auto my-8">
+      <pre className="whitespace-pre-wrap font-mono text-base">
+{`
 |￣￣￣￣￣￣￣￣￣￣￣￣|
 | Open-source ≠ Free |
 |____________________|
@@ -16,11 +16,12 @@ function Hello() {
 
 Hi There 👋 This is Pascal!
 
-Love the design? Star ✨ on https://github.com/Byabasaija/vcard_portfolio
-`);
-  }, []);
-
-  return null;
+Love the design? Star ✨ on
+https://github.com/Byabasaija/vcard_portfolio
+`}
+      </pre>
+    </div>
+  );
 }
 
 export default Hello;

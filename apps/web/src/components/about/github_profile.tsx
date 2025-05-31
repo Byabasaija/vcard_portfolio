@@ -7,6 +7,7 @@ import { LuMapPin } from 'react-icons/lu';
 import Globe from './globe';
 import { BlurFade } from '../magicui/blur-fade';
 import CodeHeader from '../section/about/code-header';
+import Hello from '../hello';
 
 const { about } = config;
 const {
@@ -33,11 +34,14 @@ export default function GitHubProfile() {
   return (
     <div className="max-w-full text-gray-100 ">
       <h1 className="text-3xl font-bold mb-2">Hello, I'm Pascal Byabasaija 👋</h1>
+
       <blockquote className="border-l-4 border-gray-300 pl-4 italic mb-4">
         Full-Stack Developer passionate about building elegant solutions to complex problems.
         <br />
         <strong>Currently seeking new opportunities in software development.</strong>
       </blockquote>
+
+      {/* <Hello /> */}
 
       <div className="flex mb-6">
         <img src="https://img.shields.io/badge/OPEN_TO_WORK-brightgreen?style=for-the-badge" alt="Open To Work" />
@@ -78,7 +82,7 @@ export default function GitHubProfile() {
                 <section id="github-calendar" className="text-light-gray mt-5">
                 <GitHubCalendar
                     username={githubUsername}
-                    blockSize={12}
+                    blockSize={10}
                     blockMargin={4}
                     colorScheme="dark"
                     blockRadius={2}

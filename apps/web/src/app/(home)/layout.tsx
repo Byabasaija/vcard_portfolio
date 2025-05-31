@@ -43,7 +43,7 @@ function HomeLayout({ children }: { readonly children: React.ReactNode }) {
       <WebVitals gaId={googleAnalyticId} />
       <body>
         <ProgressBar className="fixed top-0 h-1 bg-vegas-gold">
-          <Hello />
+          
           <main>
             <SideBar
               avatar={avatar}
