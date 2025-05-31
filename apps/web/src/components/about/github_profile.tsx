@@ -34,11 +34,11 @@ export default function GitHubProfile() {
   const calendarRef = useRef<HTMLDivElement>(null);
 
 useEffect(() => {
-  // Scroll to the end (right) of the calendar
   if (calendarRef.current) {
-    calendarRef.current.scrollLeft = calendarRef.current.scrollWidth;
+    const container = calendarRef.current;
+    container.scrollLeft = container.clientWidth * 2;
   }
-}, [])
+}, []);
 
   return (
     <div className="max-w-full text-gray-100 ">
@@ -88,7 +88,7 @@ useEffect(() => {
                     </BlurFade>
 
                <BlurFade inView delay={0.4} direction="up">
-                <section id="github-calendar" className="text-light-gray mt-5 overflow-x-auto" ref={calendarRef}>
+                <section id="github-calendar" className="text-light-gray mt-5 overflow-x-auto scroll-smooth" ref={calendarRef}>
                   <GitHubCalendar
                     username={githubUsername}
                     blockSize={10}
