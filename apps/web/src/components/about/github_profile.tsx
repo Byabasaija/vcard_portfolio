@@ -45,7 +45,7 @@ useEffect(() => {
       <h1 className="text-3xl font-bold mb-2">Hello, I'm Pascal Byabasaija 👋</h1>
 
       <blockquote className="border-l-4 border-gray-300 pl-4 italic mb-4">
-        Full-Stack Developer passionate about building elegant solutions to complex problems.
+        Full-Stack Software Engineer passionate about building elegant solutions to complex problems.
         <br />
         <strong>Currently seeking new opportunities in software development.</strong>
       </blockquote>
@@ -107,7 +107,7 @@ useEffect(() => {
       <section className="mb-6 mt-6">
         <h2 className="text-2xl font-bold mb-3">🚀 About Me</h2>
         <ul className="list-disc pl-6 space-y-1">
-          <li>🔭 I'm a Full-Stack Developer focused on building intuitive, efficient applications</li>
+          <li>🔭 I'm a Full-Stack Software Engineer focused on building intuitive, efficient applications</li>
           <li>💡 I love building tools that make life easier for users and businesses</li>
           <li>🌱 Currently expanding my expertise in cloud architecture and AI integration</li>
           <li>💼 Open to full-time roles and freelance projects</li>
@@ -133,11 +133,12 @@ useEffect(() => {
           <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
           <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
           <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+          <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
           <img src="https://img.shields.io/badge/Pydantic-5B4ADF?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
         </div>
         
         <h3 className="text-xl font-semibold mb-2">Frontend</h3>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mb-4">
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
           <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
           <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -145,17 +146,46 @@ useEffect(() => {
           <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
           <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="shadcn/ui" />
         </div>
+
+        <h3 className="text-xl font-semibold mb-2">Databases</h3>
+        <div className="flex flex-wrap gap-2 mb-4">
+          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+          <img src="https://img.shields.io/badge/PostGIS-008000?style=for-the-badge&logo=postgis&logoColor=white" alt="PostGIS" />
+          <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+          <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+        </div>
+
+        <h3 className="text-xl font-semibold mb-2">DevOps & Cloud</h3>
+        <div className="flex flex-wrap gap-2 mb-4">
+          <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+          <img src="https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white" alt="Traefik" />
+          <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+          <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP" />
+          <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+          <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+        </div>
+
+        <h3 className="text-xl font-semibold mb-2">AI & Machine Learning</h3>
+        <div className="flex flex-wrap gap-2 mb-4">
+          <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+          <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+          <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+         
+        </div>
       </section>
 
       <section className="mb-6">
-        <h2 className="text-2xl font-bold mb-3">🛠️ Projects</h2>
+        <h2 className="text-2xl font-bold mb-3">🛠️ Open Source Projects</h2>
         
         <div className="border border-gray-200 rounded-lg overflow-hidden">
           <button 
             className="w-full text-left px-4 py-3 font-bold bg-onyx focus:outline-none flex justify-between items-center"
             onClick={() => toggleProject('ChatAPI')}
           >
-            <span>ChatAPI</span>
+            <span>ChatAPI - (Author)</span>
             <span>{expandedProject === 'ChatAPI' ? '−' : '+'}</span>
           </button>
           
@@ -191,6 +221,8 @@ useEffect(() => {
       
       <div className="text-center text-gray-300 italic">
         Thanks for visiting my profile! Don't hesitate to reach out if you think we could work together.
+        {/* <br />
+        <blockquote className="block mt-2 text-sm text-gray-400">"You don't learn to swim by reading about water"</blockquote> */}
       </div>
     </div>
   );
