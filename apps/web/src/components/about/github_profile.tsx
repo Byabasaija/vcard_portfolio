@@ -1,7 +1,7 @@
 'use client'
 
 import config from '@/config';
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import GitHubCalendar from 'react-github-calendar';
 import { LuMapPin } from 'react-icons/lu';
 import Globe from './globe';
@@ -30,6 +30,15 @@ export default function GitHubProfile() {
       setExpandedProject(projectName);
     }
   };
+
+  const calendarRef = useRef<HTMLDivElement>(null);
+
+useEffect(() => {
+  // Scroll to the end (right) of the calendar
+  if (calendarRef.current) {
+    calendarRef.current.scrollLeft = calendarRef.current.scrollWidth;
+  }
+}, [])
 
   return (
     <div className="max-w-full text-gray-100 ">
@@ -78,20 +87,20 @@ export default function GitHubProfile() {
                     </ul>
                     </BlurFade>
 
-                    <BlurFade inView delay={0.4} direction="up">
-                <section id="github-calendar" className="text-light-gray mt-5">
-                <GitHubCalendar
+               <BlurFade inView delay={0.4} direction="up">
+                <section id="github-calendar" className="text-light-gray mt-5 overflow-x-auto" ref={calendarRef}>
+                  <GitHubCalendar
                     username={githubUsername}
                     blockSize={10}
                     blockMargin={4}
                     colorScheme="dark"
                     blockRadius={2}
                     fontSize={14}
-                    style={{ fontWeight: "bold" }}
-                
-                />
+                    style={{ fontWeight: "bold", minWidth: '600px' }}
+                  />
                 </section>
-            </BlurFade>
+              </BlurFade>
+
         
         </section>
 
