@@ -14,8 +14,7 @@ alt: "Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use
 mathjax: false
 ---
 
-# Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When
-
+## Introduction
 Real-time functionality is no longer a luxury. Whether you're building a chat app, a stock ticker, or a multiplayer game, users expect updates **as they happen**.
 
 But there’s more than one way to deliver real-time features on the web.
@@ -170,27 +169,6 @@ socket.onmessage = (event) => {
 - You need instant, two-way communication
 
 - You want scalable real-time experience with low overhead
-
-## 🧠 Quick Comparison Table    
-
-| Protocol     | Direction       | Persistent | Latency     | Complexity | Best For                           |
-| ------------ | --------------- | ---------- | ----------- | ---------- | ---------------------------------- |
-| Polling      | Client → Server | ❌          | ⏳ High      | 🟢 Low     | Simple apps, slow-changing data    |
-| Long Polling | Server → Client | ❌ (looped) | ⚠️ Medium   | 🟡 Medium  | Notifications, legacy environments |
-| SSE          | Server → Client | ✅          | 🟢 Low      | 🟢 Low     | Dashboards, analytics, alerts      |
-| WebSockets   | Both directions | ✅          | 🟢 Very Low | 🔴 Medium  | Chat, games, live collab           |
-
-
-## ✅ So… What Should You Use?
-Here’s my rule of thumb:
-
-| If You Need...                    | Use...       |
-| --------------------------------- | ------------ |
-| Quick & simple updates            | -> Polling      |
-| Server pushes with decent latency | -> SSE          |
-| Legacy HTTP-based real-time       | -> Long Polling |
-| Two-way, real-time communication  | -> WebSockets   |
-
 
 
 As i concluded, choosing a real-time strategy isn't just about what's trending — it's about what fits.
