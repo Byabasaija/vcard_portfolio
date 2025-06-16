@@ -1,4 +1,22 @@
+---
+title: "Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When"
+publishedAt: "2025-06-16"
+category: Systems Design
+tags:
+  - Systems Design
+  - Software Development
+  - Open Source
+  - ChatAPI
+
+summary: "Real-time functionality is no longer a luxury. Whether you're building a chat app, a stock ticker, or a multiplayer game, users expect updates as they happen."
+banner: /images/banner/posts/websockets-sse-polling.png
+alt: "Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When"
+mathjax: false
+---
+
 # Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When
+
+!["Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When"](/apps/web/public/images/banner/posts/websockets-sse-polling.png)
 
 Real-time functionality is no longer a luxury. Whether you're building a chat app, a stock ticker, or a multiplayer game, users expect updates **as they happen**.
 
