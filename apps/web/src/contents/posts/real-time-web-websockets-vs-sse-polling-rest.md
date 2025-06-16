@@ -16,8 +16,6 @@ mathjax: false
 
 # Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When
 
-![Real-Time on the Web: WebSockets vs SSE, Polling, and REST — What to Use When](/apps//web/public/images/banner/posts/websockets-sse-polling.png)
-
 Real-time functionality is no longer a luxury. Whether you're building a chat app, a stock ticker, or a multiplayer game, users expect updates **as they happen**.
 
 But there’s more than one way to deliver real-time features on the web.
