@@ -171,7 +171,7 @@ socket.onmessage = (event) => {
 
 - You want scalable real-time experience with low overhead
 
-## 🧠 Quick Comparison Table
+## 🧠 Quick Comparison Table    
 
 | Protocol     | Direction       | Persistent | Latency     | Complexity | Best For                           |
 | ------------ | --------------- | ---------- | ----------- | ---------- | ---------------------------------- |
@@ -180,15 +180,17 @@ socket.onmessage = (event) => {
 | SSE          | Server → Client | ✅          | 🟢 Low      | 🟢 Low     | Dashboards, analytics, alerts      |
 | WebSockets   | Both directions | ✅          | 🟢 Very Low | 🔴 Medium  | Chat, games, live collab           |
 
+
 ## ✅ So… What Should You Use?
 Here’s my rule of thumb:
 
 | If You Need...                    | Use...       |
 | --------------------------------- | ------------ |
-| Quick & simple updates            | Polling      |
-| Server pushes with decent latency | SSE          |
-| Legacy HTTP-based real-time       | Long Polling |
-| Two-way, real-time communication  | WebSockets   |
+| Quick & simple updates            | -> Polling      |
+| Server pushes with decent latency | -> SSE          |
+| Legacy HTTP-based real-time       | -> Long Polling |
+| Two-way, real-time communication  | -> WebSockets   |
+
 
 
 As i concluded, choosing a real-time strategy isn't just about what's trending — it's about what fits.
