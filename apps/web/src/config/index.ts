@@ -41,7 +41,7 @@ const config: Config = {
   avatar: "/images/profile.jpeg",
   title: "Pascal Byabasaija - Software Engineer",
   description:
-    "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+    "I'm Pascal Byabasaija, a Software Engineer with 4+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
   author: "Pascal Byabasaija",
   keywords: [
     "Pascal Byabasaija",
@@ -59,7 +59,7 @@ const config: Config = {
     siteName: "Pascal Byabasaija - Software Engineer",
     title: "Pascal Byabasaija - Software Engineer",
     description:
-      "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+      "I'm Pascal Byabasaija, a Software Engineer with 4+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
     images: [
       {
         url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
@@ -133,7 +133,7 @@ const config: Config = {
     metadataBase: new URL("https://www.byabasaija.com"),
     title: "Pascal Byabasaija - Software Engineer",
     description:
-      "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+      "I'm Pascal Byabasaija, a Software Engineer with 4+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
     authors: [{ name: "Pascal Byabasaija" }],
     creator: "Pascal Byabasaija",
     keywords: [
@@ -149,7 +149,7 @@ const config: Config = {
       siteName: "Pascal Byabasaija - Software Engineer",
       title: "Pascal Byabasaija - Software Engineer",
       description:
-        "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+        "I'm Pascal Byabasaija, a Software Engineer with 4+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
       images: [
         {
           url: "https://unsplash.com/photos/black-remote-control-on-red-table-6sAl6aQ4OWI",
@@ -164,7 +164,7 @@ const config: Config = {
       card: "summary_large_image",
       title: "Pascal Byabasaija - Software Engineer",
       description:
-        "I'm Pascal Byabasaija, a Software Engineer with 5+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
+        "I'm Pascal Byabasaija, a Software Engineer with 4+ years of success in Agile Development, Full-Stack Engineering, and Software Architecture.",
     
     },
     icons: {
