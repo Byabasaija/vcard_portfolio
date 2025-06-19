@@ -299,10 +299,10 @@ cross-sell metrics.
           company: "Mara Scientific",
           location: "Kampala, Uganda",
           role: "Fullstack Software Engineer & Project Lead",
-          duration: "Dec 2020 - March. 2024",
+          duration: "Dec 2021 - March. 2024",
           tasksMarkdown: `
-- Promoted to lead developer team of 6, delivering healthcare platforms like Mpeke HMIS.
-- Improved system uptime (60% → 90%) and reduced bottlenecks by 30%.
+-  Promoted to lead developer team of 6 on Mpeke HMIS project after stepping up to mediate a misunderstanding between a client, sales and engineering teams about the project deliverables.
+- Consequently, speeded up feature delivery by 38% and reduced bugs by 30%.
 - Developed full-stack features in healthcare applications with React and Flask.
 - Collaborated with DevOps for cloud/offline deployments; improved client satisfaction by
 20%.
